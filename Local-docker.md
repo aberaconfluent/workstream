@@ -7,7 +7,7 @@ This document outlines steps to set up Apache Kafka and Flink, run example jobs,
 ## Tarball with Apache Kafka (Optional, Prerequisites)
 
 ```bash
-wget https://dlcdn.apache.org/kafka/4.0.0/kafka_2.13-4.0.0.tgz
+wget https://dlcdn.apache.org/kafka/4.0.0/kafka_2.12-3.7.2.tgz
 mv ~/Downloads/kafka_2.13-3.7.0.tgz .
 tar xf kafka_2.13-3.7.0.tgz
 cd kafka_2.13-3.7.0
