@@ -7,7 +7,7 @@ This document outlines steps to set up Apache Kafka and Flink, run example jobs,
 ## Tarball with Apache Kafka (Optional, Prerequisites)
 
 ```bash
-wget [https://downloads.apache.org/kafka/3.7.0/kafka_2.13-3.7.0.tgz](https://downloads.apache.org/kafka/3.7.0/kafka_2.13-3.7.0.tgz)
+wget https://downloads.apache.org/kafka/3.7.0/kafka_2.13-3.7.0.tgz
 mv ~/Downloads/kafka_2.13-3.7.0.tgz .
 tar xf kafka_2.13-3.7.0.tgz
 cd kafka_2.13-3.7.0
@@ -24,7 +24,7 @@ bin/kafka-storage.sh format -t $KAFKA_CLUSTER_ID -c config/kraft/server.properti
 ## Flink Installation
 
 ```bash
-wget [https://dlcdn.apache.org/flink/flink-1.19.0/flink-1.19.0-bin-scala_2.12.tgz](https://dlcdn.apache.org/flink/flink-1.19.0/flink-1.19.0-bin-scala_2.12.tgz)
+wget https://dlcdn.apache.org/flink/flink-1.19.0/flink-1.19.0-bin-scala_2.12.tgz
 tar xf flink-1.19.0-bin-scala_2.12.tgz
 cd flink-1.19.0
 
